@@ -197,8 +197,9 @@ public class Main {
                     device.getType(),  // Use the implemented getType() method
                     PricingCalculator.calculatePrice(device));
         }
-        System.out.println("----------------------------------------------");
+        System.out.println("==============================================");
         System.out.printf("Total Price: $%.2f%n", totalPrice);
         System.out.println("==============================================");
     }
 }
+
